@@ -27,9 +27,9 @@ public class Boundaries : MonoBehaviour
         {
             transform.position = new Vector3(-10.1f, transform.position.y, 0);
         }
-        else if (transform.position.x <= -10.1f)
+        else if (transform.position.x >= 10.1f)
         {
-            transform.position = new Vector3(-10.1f, transform.position.y, 0);
+            transform.position = new Vector3(10.1f, transform.position.y, 0);
         }
             
         transform.Translate(Vector3.right * Time.deltaTime * speed * Input.GetAxis("Horizontal"));

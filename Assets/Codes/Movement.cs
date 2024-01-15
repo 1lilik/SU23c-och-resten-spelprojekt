@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+//using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -33,7 +35,11 @@ public class Movement : MonoBehaviour
         {
             transform.position += new Vector3(0, -5, 0) * Time.deltaTime;
         }
+        //if (Input.GetKey(KeyCode.Escape))
+        {
 
+          //  SceneManager.LoadSceneAsync(0);
+        }
     }
 
 
