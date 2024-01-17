@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffada989aeeb4b942a4437ea8503b36a, type: 3}
   m_Name: You said no!
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - You said no
   responses: []
