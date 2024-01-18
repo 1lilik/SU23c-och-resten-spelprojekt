@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffada989aeeb4b942a4437ea8503b36a, type: 3}
+  m_Name: BorderGuardLie
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Dorian:
+
+    We are here for business. My brother in law owns a prestigious
+    organization and we are looking for a more comfortable place to live while helping
+    him.'
+  - "Border guard:\n Of Course sir! No worries go right ahead!"
+  - The family passes through the border control.
+  - "Elena:\n I did not like that man."
+  - "Ivan:\n Me neither. He looked scary."
+  - "Adina:\n Well, you are lucky. You will never have to meet him again."
+  - "Dorian:\n And I think we are almost at our new place now. We can eat the sandwiches
+    when we arrive there.\r\n"
+  - "Ivan:\n Sandwiches with cheese!"
+  - The family keeps walking. More and more tent-looking houses appear the further
+    they walk.
+  responses: []

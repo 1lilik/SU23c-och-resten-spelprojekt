@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 189865039}
   - component: {fileID: 189865040}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Dialogues
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1522,6 +1522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b22f4a97380adc4d9e15904da3cd1cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!212 &1553453166
 SpriteRenderer:
   m_ObjectHideFlags: 0
