@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ExitMenuButtonAndSave : MonoBehaviour
+public class ExitToMenu1 : MonoBehaviour
 {
     private int currentSceneIndex;
 
-    public void ExitToMenu1()
+    public void ExitToMenu()
     {
         
         
