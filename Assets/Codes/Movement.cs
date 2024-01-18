@@ -1,14 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
-//using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
- 
+    public float moveSpeed = 5f;
 
+<<<<<<< HEAD
+=======
     // Start is called before the first frame update
     void Start()
     {
@@ -17,36 +14,13 @@ public class Movement : MonoBehaviour
     }
 
     // Update is called once per frame
+>>>>>>> f28b1fe6188bb3be9d09d80d47c10061b10cec10
     void Update()
     {
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.position += new Vector3(5, 0, 0) * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.position += new Vector3(-5, 0, 0) * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
-        {
-            transform.position += new Vector3(0, 5, 0) * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.position += new Vector3(0, -5, 0) * Time.deltaTime;
-        }
-        //if (Input.GetKey(KeyCode.Escape))
-        {
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
-          //  SceneManager.LoadSceneAsync(0);
-        }
+        Vector3 movement = new Vector3(horizontalInput, verticalInput, 0f) * moveSpeed * Time.deltaTime;
+        transform.Translate(movement);
     }
-
-
 }
-
-
-
-
-
-

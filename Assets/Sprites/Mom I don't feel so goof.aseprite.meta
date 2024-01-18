@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 4f63fa435d8edae418a53970b49f5042
-=======
-guid: ed06aaf6734bd9e4391c56bc5864759a
->>>>>>> 07dacc6729100c2bf60b1e6bb03e57bfa3f145a0
+guid: 2c894db24dc87a544ac9a621187f4492
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Border utomhus
+  - name: Mom I don't feel so goof
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -132,13 +128,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 128
-      height: 80
-<<<<<<< HEAD
-    spriteID: 8f9ac8fe9f7aeb148bc5458ec37f7d73
-=======
-    spriteID: 4cdf70933efe03949aeaa5de744c87b4
->>>>>>> 07dacc6729100c2bf60b1e6bb03e57bfa3f145a0
+      width: 256
+      height: 160
+    spriteID: f42a02e7ba9a15544b9659a7f4361d93
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,27 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1043966967
-    name: Border utomhus
+    guid: -673870193
+    name: Mom I don't feel so goof
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Border utomhus
+    - name: Mom I don't feel so goof
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
-        width: 128
-        height: 80
-<<<<<<< HEAD
-      spriteId: 8f9ac8fe9f7aeb148bc5458ec37f7d73
-=======
-      spriteId: 4cdf70933efe03949aeaa5de744c87b4
->>>>>>> 07dacc6729100c2bf60b1e6bb03e57bfa3f145a0
+        width: 256
+        height: 160
+      spriteId: f42a02e7ba9a15544b9659a7f4361d93
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 128, y: 80}
+  canvasSize: {x: 256, y: 160}
