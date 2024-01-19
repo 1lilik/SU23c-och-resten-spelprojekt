@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffada989aeeb4b942a4437ea8503b36a, type: 3}
+  m_Name: InteractionWithFamily
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Dorian:\n I packed all of the things we will need. Are we ready to leave?"
+  - "Ivan:\n Dad, what is happening? We were just playing and I heard a big boom
+    and then people started shouting and I don\u2019t know what\u2019s happening.\r\n"
+  - "Adina:\n It\u2019s alright, darling. Sometimes life goes certain ways and we
+    have to make sudden changes. We\u2019re going to be ok, once we get out of here\u2026"
+  - "Elena:\n But I like our house! \r\n"
+  - "Dorian:\n You\u2019ll like the new place even better! "
+  - "Elena:\n Ok, dad."
+  - "Dorian:\n Let\u2019s get going. "
+  responses: []

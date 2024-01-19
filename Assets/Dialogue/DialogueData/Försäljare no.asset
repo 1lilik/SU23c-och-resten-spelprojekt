@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffada989aeeb4b942a4437ea8503b36a, type: 3}
+  m_Name: "F\xF6rs\xE4ljare no"
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Dorian:\n No, thank you! We have enough food with us. "
+  - "Elena:\n But Dad, I\u2019m really hungry"
+  - "Adina:\n We have sandwiches in the backpack."
+  - "Ivan:\n Do they have cheese on them? \r\n"
+  - "Adina:\n I made sure to make them with cheese."
+  - "Dorian:\n We can take a break later and eat some lunch."
+  responses: []
