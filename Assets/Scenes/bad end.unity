@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &135661444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 135661446}
+  - component: {fileID: 135661445}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &135661445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135661444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 573a543367907794aafd0d3664d2e5ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &135661446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135661444}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -123.05542, y: -141.5105, z: -4.9981933}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &482184954
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,6 +293,16 @@ PlayableDirector:
     value: {fileID: 495180967}
   - key: {fileID: 4467897166058227217, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
     value: {fileID: 1508375824}
+  - key: {fileID: 6436380055409696070, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7343653360321750562, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -5889140221743047294, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -6248193517663363962, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7929673043280029606, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
+    value: {fileID: 135661444}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &495180967
@@ -643,3 +697,4 @@ SceneRoots:
   - {fileID: 2048073095}
   - {fileID: 482184958}
   - {fileID: 1603952904}
+  - {fileID: 135661446}
