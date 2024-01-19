@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 20e16ca4aeca25e4ab2f8e7f932fd964
+guid: bf8297a9e9d33a843adb758da7708d97
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638412689788576292
+  platformSettingsDirtyTick: 638412694817678456
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Forsaljare_2
+  - name: OSt_vaska_mackaAAAAAAA
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.04761905}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 15
-      height: 28
-    spriteID: 80fedb5e8a411014ab90232890886a43
+      width: 26
+      height: 21
+    spriteID: 8a10287a0eedbca478f41fb229304064
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,20 +142,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 764603054
-    name: Forsaljare_2
+    guid: -482345318
+    name: OSt_vaska_mackaAAAAAAA
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Forsaljare_2
+    - name: OSt_vaska_mackaAAAAAAA
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 15
-        height: 28
-      spriteId: 80fedb5e8a411014ab90232890886a43
+        x: 1
+        y: 1
+        width: 26
+        height: 21
+      spriteId: 8a10287a0eedbca478f41fb229304064
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -209,4 +209,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 15, y: 30}
+  canvasSize: {x: 28, y: 23}
