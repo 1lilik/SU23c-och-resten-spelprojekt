@@ -799,7 +799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a1a52526eff9346b08a5a1aaaf2a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Serhii Scen
+  sceneToLoad: Isabelle Scen
 --- !u!1 &1647604961
 GameObject:
   m_ObjectHideFlags: 0
