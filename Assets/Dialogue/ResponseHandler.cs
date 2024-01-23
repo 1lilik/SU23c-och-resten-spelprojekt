@@ -13,9 +13,12 @@ public class ResponseHandler : MonoBehaviour
 
     List<GameObject> tempResponseButtons = new List<GameObject>();
 
+    SceneChanger changer;
+
     private void Start()
     {
         dialogeuUI = GetComponent<DialogueUI>();
+        SceneChanger changer = GetComponent<SceneChanger>();
     }
 
     public void ShowResponse(Response[] responses)
@@ -28,6 +31,8 @@ public class ResponseHandler : MonoBehaviour
             responseButton.gameObject.SetActive(true);
             responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
             responseButton.GetComponent<Button>().onClick.AddListener(call: () => OnPickedResponse(response));
+            
+            responseButton.GetComponent<Button>().onClick.AddListener(call: () => changer.DelaySwitchScene(10));
 
             tempResponseButtons.Add(responseButton);
 
