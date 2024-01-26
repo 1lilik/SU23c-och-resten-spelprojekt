@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Gemensam scen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Scene 2.unity
+    path: Assets/Scenes/Ute.unity
     guid: 0ab63cff41d48ff448619b93f294b177
   - enabled: 1
     path: Assets/Scenes/Isabelle Scen.unity

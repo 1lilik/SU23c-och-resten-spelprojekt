@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonInteraction : MonoBehaviour
 {
-    public string sceneToLoad = "NextScene";
+    public string sceneToLoad = "(Continue)";
 
     public void OnButtonPressed()
     {
