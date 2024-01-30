@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Isabelle Scen.unity
     guid: ca70fdc43c313504883e2696c1e4dcea
+  - enabled: 1
+    path: Assets/Scenes/(Continue).unity
+    guid: f18d768909959924ebc8f8bf3b01cb5d
   m_configObjects: {}
