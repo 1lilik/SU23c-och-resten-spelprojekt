@@ -16,7 +16,7 @@ public class ChangeScene : MonoBehaviour
     {
         fade.FadeIn();
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Scene 2");
+        SceneManager.LoadScene("Ute");
     }
 
     // Update is called once per frame
