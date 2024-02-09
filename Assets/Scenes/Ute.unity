@@ -899,9 +899,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1679880894867571168, guid: e6f4875fad0aec3458fd84880c3844e6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1561960672}
-    - targetCorrespondingSourceObject: {fileID: 1679880894867571168, guid: e6f4875fad0aec3458fd84880c3844e6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1561960673}
   m_SourcePrefab: {fileID: 100100000, guid: e6f4875fad0aec3458fd84880c3844e6, type: 3}
 --- !u!1 &733878002
 GameObject:
@@ -2569,19 +2566,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25e36f0466c12a942b0e19212af1a867, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: BadEnding
---- !u!114 &1561960673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1561960665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30a1a52526eff9346b08a5a1aaaf2a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: BadEnding
