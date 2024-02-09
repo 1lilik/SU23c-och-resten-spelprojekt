@@ -35,7 +35,7 @@ public class NewBehaviourScript : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.Space) && isInArea == true)
+        if (Input.GetKeyDown(KeyCode.Space) && isInArea == true && responseBox.active == false)
         {
             UIBox.SetActive(true);
             textbox.text = Sentenses[SentenceNumber];
@@ -45,7 +45,18 @@ public class NewBehaviourScript : MonoBehaviour
             {
                 responseBox.SetActive(true);
             }
+            if (SentenceNumber == 9)
+            {
+            UIBox.SetActive(false);
+            }
         }
         
+    }
+    public void NoButtonPressed()
+    {
+        responseBox.SetActive(false);
+        UIBox.SetActive(true);
+        textbox.text = Sentenses[SentenceNumber];
+        SentenceNumber++;
     }
 }
