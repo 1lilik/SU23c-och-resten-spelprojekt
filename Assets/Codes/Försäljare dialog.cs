@@ -45,7 +45,7 @@ public class NewBehaviourScript : MonoBehaviour
             {
                 responseBox.SetActive(true);
             }
-            if (SentenceNumber == 9)
+            if (SentenceNumber == 10)
             {
             UIBox.SetActive(false);
             }
