@@ -7,6 +7,10 @@ public class reset : MonoBehaviour
 {
     private void OnEnable()
     {
-        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        Invoke("GoToMenu", 15);
+    }
+    private void GoToMenu()
+    {
+         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
 }

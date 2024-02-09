@@ -301,6 +301,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -6248193517663363962, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
     value: {fileID: 1508375824}
+  - key: {fileID: -6817719523805096132, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
+    value: {fileID: 135661444}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &495180967
