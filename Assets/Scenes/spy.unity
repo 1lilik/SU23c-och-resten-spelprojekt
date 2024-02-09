@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 28218541}
-  - component: {fileID: 28218540}
+  - component: {fileID: 28218542}
   m_Layer: 0
   m_Name: scene loader
   m_TagString: Untagged
@@ -140,18 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &28218540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28218539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 573a543367907794aafd0d3664d2e5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &28218541
 Transform:
   m_ObjectHideFlags: 0
@@ -167,6 +155,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &28218542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28218539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1716a8663d46c304fb75df7b90de7c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 15
 --- !u!1 &749153142
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,11 +522,13 @@ PlayableDirector:
   - key: {fileID: 2567145508340383063, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
     value: {fileID: 0}
   - key: {fileID: 836160295181191936, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1085047514}
   - key: {fileID: 1312693294932807864, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 749153142}
   - key: {fileID: -7067721956675845593, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 2877060842974414143, guid: 0bc6d353ec9969843b1f49dc89ddb804, type: 2}
+    value: {fileID: 28218539}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1328701329

@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class reset : MonoBehaviour
 {
+    public float time = 15;
     private void OnEnable()
     {
-        Invoke("GoToMenu", 15);
+        Invoke("GoToMenu", time);
     }
     private void GoToMenu()
     {
